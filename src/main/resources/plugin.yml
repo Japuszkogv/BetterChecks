@@ -1,0 +1,11 @@
+name: BetterChecks
+version: '${version}'
+main: me.japuszkogv.betterchecks.Main
+api-version: '1.21.4'
+load: POSTWORLD
+authors: [ Japuszkogv ]
+
+commands:
+  withdraw:
+    description: Wyplaca pieniadze na czek.
+    usage: /withdraw <kwota>
